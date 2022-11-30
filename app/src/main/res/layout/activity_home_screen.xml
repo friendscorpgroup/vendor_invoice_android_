@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".watercategory.ui.HomeScreenActivityWater"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/flFragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/cardView"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/mobile_navigation_water" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_15sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-3dp"
+        android:layout_marginStart="-5dp"
+        android:layout_marginEnd="-5dp"
+        android:elevation="@dimen/_10sdp">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_55sdp"
+            app:menu="@menu/bottom_nav_menu_water"
+            app:itemIconSize="@dimen/_22sdp"
+            app:itemIconTint="@drawable/bottom_navigation_style"
+            app:itemTextColor="@drawable/bottom_navigation_style"
+            android:background="@drawable/shadow_corner"
+            app:itemTextAppearanceActive="@style/Widget.BottomNavigationView"
+            app:itemTextAppearanceInactive="@style/Widget.BottomNavigationView"/>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

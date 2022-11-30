@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/dashboardT">
+
+    <fragment
+        android:id="@+id/dashboardT"
+        android:name="com.frenzin.invoice.teacategory.bottombar.dashboard.DashboardTeaFragment"
+        android:label="F three"
+        tools:layout="@layout/fragment_dashboard_tea" />
+
+    <fragment
+        android:id="@+id/invoiceT"
+        android:name="com.frenzin.invoice.teacategory.bottombar.invoice.InvoiceTeaFragment"
+        android:label="F two"
+        tools:layout="@layout/activity_generate_invoice_water" />
+
+    <fragment
+        android:id="@+id/profileT"
+        android:name="com.frenzin.invoice.teacategory.bottombar.profile.ProfileTeaFragment"
+        android:label="F one"
+        tools:layout="@layout/fragment_profile_water" />
+</navigation>

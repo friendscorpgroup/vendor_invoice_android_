@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dashboardT"
+        android:title="Dashboard"
+        android:icon="@drawable/dashboard_icon" />
+    <item
+        android:id="@+id/invoiceT"
+        android:title="Invoice"
+        android:icon="@drawable/invoice_icon"/>
+    <item
+        android:id="@+id/profileT"
+        android:title="Profile"
+        android:icon="@drawable/profile_icon_dashboard"/>
+</menu>

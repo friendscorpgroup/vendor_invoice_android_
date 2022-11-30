@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/actionbarcolor">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/invoice"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:fontFamily="@font/inter_medium"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sdp"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerviewInvoiceCustomerList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_10sdp"
+        tools:listitem="@layout/activity_invoice_customer_list"
+        android:layout_margin="@dimen/_5sdp"/>
+
+    <TextView
+        android:id="@+id/tvInvoiceAddCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="Please Add Customer"
+        android:fontFamily="@font/inter_medium"
+        android:textSize="@dimen/_14sdp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

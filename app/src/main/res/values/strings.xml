@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Frenzin Invoice Project</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">Start</string>
+
+    <string name="tea">Tea</string>
+    <string name="water">Water</string>
+    <string name="select_category">Select Category</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="add">Add</string>
+    <string name="addcustomer">Add Customer</string>
+    <string name="customer_list">Customer List</string>
+    <string name="submit">Submit</string>
+    <string name="done">Done</string>
+    <string name="save">Save</string>
+    <string name="generate_invoice">Generate Invoice</string>
+    <string name="coffee">Coffee</string>
+    <string name="invoice">Invoice</string>
+    <string name="error">please enter value</string>
+    <string name="service_start_successfully">service start successfully</string>
+    <string name="service_already_running">service already running</string>
+    <string name="customer_added_successfully">Customer Added Successfully !</string>
+    <string name="customer_updated_successfully">Customer Updated Successfully !</string>
+    <string name="channel_name">Reminder Notification</string>
+    <string name="channel_description">Reminders</string>
+    <string name="r_r_title">rRTitle</string>
+    <string name="notification_ctitle">Reminder</string>
+    <string name="notification_title">Reminder</string>
+    <string name="notification_subtitle">Surprise!</string>
+
+    <string name="notification_schedule_title">Schedule notification:\u00a0</string>
+    <string name="notification_schedule_pattern">dd.MM.yy \u00B7 HH:mm</string>
+    <string name="notification_schedule_error">
+        Schedule notification: Incorrect Date and Time
+    </string>
+    <string name="morning_time">Morning Time</string>
+    <string name="profile">Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="owner_name">Owner Name</string>
+    <string name="shop_name">Shop Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="gst_number">GST Number</string>
+    <string name="switch_section">Switch Section</string>
+
+    <string-array name="watertype">
+        <item>Bottle</item>
+        <item>Jug</item>
+    </string-array>
+
+</resources>

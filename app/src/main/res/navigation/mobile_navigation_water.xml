@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/dashboardWater">
+
+    <fragment
+        android:id="@+id/dashboardWater"
+        android:name="com.frenzin.invoice.watercategory.bottombar.dashboard.DashboardWaterFragment"
+        android:label="F three"
+        tools:layout="@layout/fragment_jug_section" />
+
+    <fragment
+        android:id="@+id/invoiceWater"
+        android:name="com.frenzin.invoice.bottomnavigationbar.SecondFragment"
+        android:label="F two"
+        tools:layout="@layout/fragment_bottle_section" />
+
+    <fragment
+        android:id="@+id/profileWater"
+        android:name="com.frenzin.invoice.bottomnavigationbar.ThirdFragment"
+        android:label="F one"
+        tools:layout="@layout/fragment_three" />
+</navigation>
